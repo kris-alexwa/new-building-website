@@ -1,0 +1,10 @@
+.info__wrapper {
+    max-width: 794px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    column-gap: 70px;
+    margin-top: 120px;
+}

@@ -1,0 +1,5 @@
+.footer__wrapper {
+    min-width: 1100px;
+    display: flex;
+    margin-top: 60px;
+}

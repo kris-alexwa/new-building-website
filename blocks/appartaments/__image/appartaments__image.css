@@ -1,0 +1,13 @@
+.appartaments__image {
+    background-repeat: no-repeat;
+    min-height: 320px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    min-width: 535px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.appartaments__image:nth-child(2n) {
+    margin-right: 0;
+}

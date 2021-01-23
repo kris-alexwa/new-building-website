@@ -1,0 +1,9 @@
+.header__links {
+    list-style: none;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(5, auto);
+    column-gap: 40px;
+    margin: auto;
+    white-space: nowrap;
+}

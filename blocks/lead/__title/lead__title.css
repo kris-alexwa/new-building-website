@@ -1,0 +1,11 @@
+.lead__title {
+    font-family: 'Playfair Display', serif;
+    color: #D4C17F;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    max-width: 556px;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 0;
+}

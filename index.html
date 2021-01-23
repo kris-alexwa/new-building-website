@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House VOP</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="body">
+    <div class="page">
+        <header class="header">
+            <div class="header__logo logo">
+                <h1 class="header__logo-title logo__title">HouseVOP</h1>
+                <p class="header__logo-subtitle logo__subtitle">Жилой комплекс</p>
+            </div>
+            <nav class="header__list">
+                <ul class="header__links">
+                    <li class="header__link-container">
+                        <a href="#" target="_blank" class="header__link">О компании</a>
+                    </li>
+                    <li class="header__link-container">
+                        <a href="#" target="_blank" class="header__link">Район</a>
+                    </li>
+                    <li class="header__link-container">
+                        <a href="#" target="_blank" class="header__link">Каталог квартир</a>
+                    </li>
+                    <li class="header__link-container">
+                        <a href="#" target="_blank" class="header__link">Ипотека</a>
+                    </li>
+                    <li class="header__link-container">
+                        <a href="#" target="_blank" class="header__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="lead">
+                <h2 class="lead__title">Жилой комплекс в историческом центре</h2>
+                <img class="lead__icon-mouse" src="images/icons/mouse.svg">
+                <div class="lead__info">
+                    <div class="lead__info-wrapper">
+                        <img class="lead__info-icon-map" src="images/icons/nav.svg">
+                        <a href="https://yandex.ru/maps/-/CCUIzOSUPC" target="_blank" class="lead__info-adress">Наб. реки Фонтанки 10-15</a>
+                    </div>
+                    <div class="lead__info-wrapper">
+                        <img class="lead__info-icon-phone" src="images/icons/phone.svg">
+                        <p class="lead__info-phone-number">8 (812) 123-45-67</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info">
+                <div class="info__wrapper">
+                    <img class="info__icon" src="images/icons/history-icon.svg">
+                    <p class="info__icon-description info__icon-description_bench">Рядом исторические парки и скверы</p>
+                    <img class="info__icon" src="images/icons/house-icon.svg">
+                    <p class="info__icon-description info__icon-description_buildings">Полностью обустроенный</p>
+                    <img class="info__icon" src="images/icons/fountain.svg">
+                    <p class="info__icon-description info__icon-description_fountain">10 фонтанов на территории</p>
+                    <img class="info__icon" src="images/icons/bicycle.svg">
+                    <p class="info__icon-description info__icon-description_bicycle">6 км велодорожек</p>
+                </div>
+                <!-- <p class="numeral info__numeral">II</p> -->
+            </section>
+
+            <section class="appartaments">
+                <h2 class="title appartaments__title">Наши квартиры</h2>
+                <div class="appartaments__image-container">
+                    <div class="appartaments__image" style="background-image: url(images/appartaments-loft-3floor.jpg)">
+                        <p class="appartaments__image-title">Лофт &#8212; 3 этажа</p>
+                    </div>
+                    <div class="appartaments__image" style="background-image: url(images/appartaments-loft-2floor.jpg)">
+                        <p class="appartaments__image-title">Лофт &#8212; 2 этажа</p>
+                    </div>
+                    <div class="appartaments__image" style="background-image: url(images/appartaments-loft-3floor.jpg)">
+                        <p class="appartaments__image-title">Лофт &#8212; 3 этажа</p>
+                    </div>
+                    <div class="appartaments__image" style="background-image: url(images/appartaments-loft-2floor.jpg)">
+                        <p class="appartaments__image-title">Лофт &#8212; 2 этажа</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts">
+                <div class="contacts__wrapper">
+                    <div class="contacts__container">
+                        <h2 class="title contacts__title">Хотите посмотреть?</h2>
+                        <p class="contacts__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров
+                            и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+                    </div>
+                    <form class="contacts__form">
+                        <input class="input contacts__input_name " placeholder="Ваше имя">
+                        <input class="input contacts__input_phone-number" placeholder="Номер телефона">
+                        <button class="contacts__button">Посмотреть район</button>
+                        <p class="contacts__form-remark">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+                    </form>
+                </div>
+            </section>
+
+            <section class="video">
+                <iframe class="video__iframe" src="https://www.youtube.com/embed/lkQ0LDx9jHs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+            <section class="map">
+                <h2 class="title map__title">Район на карте</h2>
+                <iframe class="map__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A4ec17fee319580b1a2ecc1bbba85faf2a0b62be4e4ba4d2e593898035176ea69&amp;source=constructor" frameborder="0"></iframe>
+            </section>
+
+            <section class="contacts-for-questions">
+                <div class="contacts-for-questions__container">
+                    <h2 class="title contacts-for-questions__title">Есть вопросы?</h2>
+                    <p class="contacts__form-remark">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+                </div>
+                <form class="contacts-for-questions__form">
+                    <input class="input contacts-for-questions__input_name" placeholder="Ваше имя">
+                    <input class="input contacts-for-questions__input_phone-number" placeholder="Номер телефона">
+                    <button class="contacts__button">Посмотреть район</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__logo logo">
+                    <h1 class="footer__logo-title logo__title">HouseVOP</h1>
+                    <p class="footer__logo-subtitle logo__subtitle">Жилой комплекс</p>
+                </div>
+
+                <nav class="footer__column">
+                    <ul class="footer__column-links">
+                        <li class="footer__column-link-container">
+                            <a href="#" target="_blank" class="footer__column-link">О компании</a></li>
+                        <li class="footer__column-link-container">
+                            <a href="#" target="_blank" class="footer__column-link">Район</a></li>
+                        <li class="footer__column-link-container">
+                            <a href="#" target="_blank" class="footer__column-link">Каталог квартир</a></li>
+                        <li class="footer__column-link-container">
+                            <a href="#" target="_blank" class="footer__column-link">Ипотека</a></li>
+                        <li class="footer__column-link-container">
+                            <a href="#" target="_blank" class="footer__column-link">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer__contacts">
+                    <ul class="footer__contacts-container">
+                        <li class="footer__contacts-info">Адрес&colon; Наб. реки Фонтанки 10-15</li>
+                        <li class="footer__contacts-info">Телефон&colon; 8 (812) 123-45-67</li>
+                        <li class="footer__contacts-info">Отдел продаж&colon; 10&colon;00&ndash;20&colon;00</li>
+                        <li class="footer__contacts-info">E&ndash;mail&colon; vip@housevip.ru</li>
+                    </ul>
+
+                    <ul class="footer__icons">
+                        <li class="footer__icon">
+                            <a href="#" class="footer__icon-link">
+                                <img class="footer__icon-img" src="images/logo/youtube-icon.svg" alt="Иконка ютуб">
+                            </a>
+                        </li>
+                        <li class="footer__icon">
+                            <a href="#" class="footer__icon-link">
+                                <img class="footer__icon-img" src="images/logo/vk-icon.svg" alt="Иконка вконтакте">
+                            </a>
+                        </li>
+                        <li class="footer__icon">
+                            <a href="#" class="footer__icon-link">
+                                <img class="footer__icon-img" src="images/logo/facebook-icon.svg" alt="Иконка фейсбук">
+                            </a>
+                        </li>
+                        <li class="footer__icon">
+                            <a href="#" class="footer__icon-link">
+                                <img class="footer__icon-img" src="images/logo/instagram-icon.svg" alt="Иконка инстаграм">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>

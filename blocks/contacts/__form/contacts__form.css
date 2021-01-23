@@ -1,0 +1,9 @@
+.contacts__form {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    row-gap: 35px;
+    column-gap: 30px;
+    align-self: flex-end;
+}

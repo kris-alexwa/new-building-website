@@ -1,0 +1,5 @@
+.lead__info {
+    display: flex;
+    min-width: 582px;
+    justify-content: center;
+}

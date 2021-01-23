@@ -1,0 +1,9 @@
+.lead {
+    background-image: url(../../images/view.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

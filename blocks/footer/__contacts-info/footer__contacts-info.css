@@ -1,0 +1,11 @@
+.footer__contacts-info {
+    color: white;
+}
+
+.footer__contacts-info:last-child {
+    color: #D4C17F;
+}
+
+.footer__contacts-info:not(:last-child) {
+    margin-bottom: 15px;
+}

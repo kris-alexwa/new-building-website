@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    src: url('Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Post No Bills Jaffna';
+    font-weight: 600;
+    font-style: normal;
+    src: url('Post\ No\ Bills\ Jaffna\ SemiBold\ 600.ttf');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: normal;
+    src: url('PlayfairDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: normal;
+    src: url('Roboto-Light.ttf');
+}

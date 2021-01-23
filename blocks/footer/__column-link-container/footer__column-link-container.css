@@ -1,0 +1,13 @@
+.footer__column-link-container {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer__column-link-container:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer__column-link-container:hover {
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+}
