@@ -68,22 +68,27 @@
 
             <section class="appartaments">
                 <h2 class="title appartaments__title">Наши квартиры</h2>
-                <div class="appartaments__image-container">
-                    <div class="appartaments__image" style="background-image: url(images/appartaments-loft-3floor.jpg)">
-                        <p class="appartaments__image-title">Лофт &#8212; 3 этажа</p>
+                <div class="appartaments__images-container">
+                    <div class="appartaments__image-wrapper">
+                        <img class="appartaments__image" src="./images/appartaments-loft-1floor.jpg" alt="Фото лофт 1 этажа">
+                        <p class="appartaments__image-title">Лофт &#8212; 1 этажа</p>
                     </div>
-                    <div class="appartaments__image" style="background-image: url(images/appartaments-loft-2floor.jpg)">
+                    <div class="appartaments__image-wrapper">
+                        <img class="appartaments__image" src="./images/appartaments-loft-2floor.jpg" alt="Фото лофт 2 этажа">
                         <p class="appartaments__image-title">Лофт &#8212; 2 этажа</p>
                     </div>
-                    <div class="appartaments__image" style="background-image: url(images/appartaments-loft-3floor.jpg)">
+                    <div class="appartaments__image-wrapper">
+                        <img class="appartaments__image" src="./images/appartaments-loft-3floor.jpg" alt="Фото лофт 3 этажа">
                         <p class="appartaments__image-title">Лофт &#8212; 3 этажа</p>
                     </div>
-                    <div class="appartaments__image" style="background-image: url(images/appartaments-loft-2floor.jpg)">
-                        <p class="appartaments__image-title">Лофт &#8212; 2 этажа</p>
+                    <div class="appartaments__image-wrapper">
+                        <img class="appartaments__image" src="./images/appartaments-loft-4floor.jpg" alt="Фото лофт 4 этажа">
+                        <p class="appartaments__image-title">Лофт &#8212; 4 этажа</p>
                     </div>
                 </div>
                 <p class="numeral appartaments__numeral">III</p>
             </section>
+
 
             <section class="contacts">
                 <div class="contacts__wrapper">
@@ -124,6 +129,8 @@
                 </form>
             </section>
         </main>
+
+
 
         <footer class="footer">
             <div class="footer__wrapper">
@@ -180,5 +187,19 @@
                 </nav>
             </div>
         </footer>
+
+        <section id="popup-image" class="popup-image">
+            <div class="popup-image__wrapper">
+                <button type="button" id="popup-image-close-button" class="popup-image__close-button button button_icon-close"></button>
+                <div class="popup-image__container">
+                    <img class="popup-image__image" src="" alt="">
+                    <p class="popup-image__title"></p>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <script src="scripts/script.js"></script>
 </body>
+
+</html>

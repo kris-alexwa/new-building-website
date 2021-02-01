@@ -1,0 +1,6 @@
+.popup-image__image {
+    grid-row: 2;
+    grid-column: 1;
+    width: 900px;
+    height: 540px;
+}

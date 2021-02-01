@@ -1,0 +1,10 @@
+.appartaments__image-wrapper {
+    transition: opacity 0.3s ease;
+    background: linear-gradient(0deg, #000000, transparent);
+    height: 100%;
+}
+
+.appartaments__image-wrapper:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

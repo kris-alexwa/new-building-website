@@ -1,0 +1,6 @@
+.popup-image__wrapper {
+    display: grid;
+    max-width: 950px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+}

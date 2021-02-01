@@ -2,4 +2,5 @@
     top: -60px;
     right: 874px;
     max-width: 452px;
+    z-index: -1;
 }
