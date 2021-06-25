@@ -3,6 +3,7 @@
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-title/header__logo-title.css);
 @import url(../blocks/header/__logo-subtitle/header__logo-subtitle.css);
@@ -62,6 +63,7 @@
 @import url(../blocks/contacts-for-questions/__form/contacts-for-questions__form.css);
 @import url(../blocks/contacts-for-questions/__container/contacts-for-questions__container.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__nav-container/footer__nav-container.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__column/footer__column.css);

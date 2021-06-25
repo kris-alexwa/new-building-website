@@ -5,5 +5,4 @@
     grid-template-columns: repeat(5, auto);
     column-gap: 40px;
     margin: auto;
-    white-space: nowrap;
 }
