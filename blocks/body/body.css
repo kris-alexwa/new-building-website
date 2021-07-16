@@ -6,4 +6,5 @@
         -moz-text-size-adjust: 100%;
         text-rendering: optimizeLegibility;
         background: #242B33;
+        overflow-x: hidden;
     }
