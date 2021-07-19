@@ -10,4 +10,6 @@
 ## Локальная сборка
 Открыть html-файл
 
+Сайт доступен по адресу: https://kris-alexwa.github.io/new-building-website/
+
 
